@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'LaLuxes';
+  src: url('./assets/fonts/LaLuxes.otf') format('truetype'); /* Caminho para o arquivo da fonte */
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
     background-image: url(./assets/background.png);
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
 }
 
@@ -10,3 +17,4 @@
     padding: 0;
     box-sizing: border-box;
 }
+

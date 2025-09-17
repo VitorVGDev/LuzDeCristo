@@ -1,20 +1,24 @@
 .header_container {
-    background: rgb(29, 25, 18);
+    background: rgba(48, 39, 23, 0.825);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
 
-
-    max-height: 80px;
+    max-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 0.875rem 15rem 0.875rem 15rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 img {
-    width: 80px;
+    width: 100px;
+    transform: scale(1.5); /* Aumenta a logo em 50% a partir do centro */
 }
 
 nav a{
@@ -22,8 +26,51 @@ nav a{
     font-size: 1.17rem;
     text-decoration: none;
     padding-right: 1rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 a:hover {
-    color: rgb(194, 183, 168);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: rgb(205, 166, 99);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown_content a {
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.dropdown_content a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-shadow: none; /* Remove o glow dos itens do dropdown */
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropbtn {
+    padding-right: 1rem;
 }

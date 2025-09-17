@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Define a animação de entrada */
+@keyframes majesticEntry {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Começa 20px abaixo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Termina na posição original */
+  }
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px); /* Ocupa a tela inteira menos o header */
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.homeContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.homeContent h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.868);
+}
+
+/* Aplica a animação a cada item */
+.animatedItem {
+    animation: majesticEntry 0.8s ease-out forwards;
+    opacity: 0; /* Começa invisível */
+}
+
+/* Adiciona um atraso para cada item aparecer em sequência */
+.homeContainer h1 {
+    font-size: 3.5rem;
+    animation-delay: 0.2s;
+}
+
+.homeContainer span {
+    color: rgb(254, 254, 254);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+.homeContainer p {
+  animation-delay: 0.5s;
+  font-size: 1.5rem;
+}
+
+.homeContainer .ctaButton {
+  animation-delay: 0.8s;
+  /* Estilos adicionais para o botão */
+  background-color: #966443;
+  color: white;
+  border: none;
+  width: 19rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.4s ease;
+  border-radius: 180px;
+}
+
+.homeContainer .ctaButton:hover {
+    background-color: #b17750;
+}
+
+
