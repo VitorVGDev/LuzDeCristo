@@ -17,7 +17,7 @@ export function Header () {
                         <a href="#">São Bento</a>
                     </div>
                 </div>
-                <a href="#">Sobre Nós</a>
+                <a href="">Sobre Nós</a>
             </nav>
         </div>
     )

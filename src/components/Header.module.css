@@ -10,10 +10,6 @@
     align-items: center;
 
     padding: 0.875rem 15rem 0.875rem 15rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
 }
 
 img {
