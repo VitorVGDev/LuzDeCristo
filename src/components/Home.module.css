@@ -11,6 +11,7 @@
     transform: translateY(0); /* Termina na posição original */
   }
 }
+
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -75,7 +76,7 @@
 
 
 .spanHome {
-	background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bms3MmlrajM3NzV0b29jZWJua2h6dGNlNjB6cWM2eG1kbzJ1dWp1ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6oye8rLOE9z5why9GG/giphy.gif);
+	background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MWR0NmR3emZhZzR5YWZ6dXJqeTVtczlxaDhjMWVqczc0MXRqZ3Z1ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Q7FbMX6oJa4ycuY5Hf/giphy.gif);
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;

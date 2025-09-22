@@ -1,0 +1,30 @@
+.containerIgreja {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 100vh;
+}
+
+.introIgreja {
+    padding: 2rem;
+    margin: 5rem 1rem 1rem 1rem;
+    background: rgba(105, 78, 32, 0.651);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border-radius: 1rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.introIgreja div {
+    max-width: 40%;
+}
+
+.containerIgreja h2 {
+    margin-bottom: 0.6rem;
+}
