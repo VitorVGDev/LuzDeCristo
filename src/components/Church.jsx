@@ -57,7 +57,9 @@ export function Church() {
            </section>
            
            <section className={styles.igrejasPrimitivas}>
-           
+                <div>
+                    
+                </div>
            </section>
 
        </div>

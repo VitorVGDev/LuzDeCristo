@@ -12,6 +12,11 @@
   }
 }
 
+.backgroundHome {
+  background-image: url(../assets/background-home.png);
+  height: calc(100vh - 80px);
+}
+
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -20,7 +25,7 @@
   height: calc(100vh - 80px); /* Ocupa a tela inteira menos o header */
   text-align: center;
   color: white;
-  margin: 10px;
+  
 }
 
  .homeContent {
@@ -57,7 +62,7 @@
 .homeContainer .ctaButton {
   animation-delay: 0.8s;
   /* Estilos adicionais para o botão */
-  background-color: #533826;
+  background-color: #a5714d;
   color: white;
   border: none;
   width: 19rem;
@@ -76,7 +81,7 @@
 
 
 .spanHome {
-	background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MWR0NmR3emZhZzR5YWZ6dXJqeTVtczlxaDhjMWVqczc0MXRqZ3Z1ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Q7FbMX6oJa4ycuY5Hf/giphy.gif);
+	background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cTkyYjVramY2MHprZzFlenJ6MHhqaWk3MHhqbjB3Nmx5ZWE5ZjdydCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6oye8rLOE9z5why9GG/giphy.gif);
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;

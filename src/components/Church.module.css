@@ -4,10 +4,6 @@
 }
 
 section {
-    height: 100vh;
-}
-
-.introIgreja {
     padding: 2rem;
     margin: 5rem 1rem 1rem 1rem;
     background: rgba(105, 78, 32, 0.651);
@@ -19,7 +15,9 @@ section {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
+    height: 100vh;
 }
+
 
 .introIgreja div {
     max-width: 40%;
@@ -27,4 +25,8 @@ section {
 
 .containerIgreja h2 {
     margin-bottom: 0.6rem;
+}
+
+.igrejasPrimitivas {
+    background: rgba(65, 59, 53, 0.651);
 }
